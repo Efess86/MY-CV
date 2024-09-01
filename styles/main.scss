@@ -1,0 +1,57 @@
+@import './_reset-styles.scss';
+
+// utils
+.pad {
+	padding: 20px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+	max-width: 820px;
+	width: 100%;
+	margin: 20px auto;
+	padding: 0 20px;
+	display: flex;
+}
+
+header {
+	background-color: #582900;
+}
+
+.header {
+	color: #FFFFFF;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin: 0 0 15px 0;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.contacts_item {
+	display: flex;
+	gap: 5px;
+	width: max-content;
+
+	a {
+		color: #FFFFFF;
+	}
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.sub-header {
+	background-color: #f5b57d;
+}
